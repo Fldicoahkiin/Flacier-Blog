@@ -1,4 +1,0 @@
-[build]
-command = "./cloudflare-build.sh"
-output_directory = "public"
-base_directory = "/"
