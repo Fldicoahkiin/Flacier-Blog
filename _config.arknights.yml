@@ -13,7 +13,7 @@ canvas_dust: true
 # dark 暗色模式
 # light 亮色模式
 # auto 跟随系统
-color: dark
+color: auto
 
 # <body> 背景图片链接
 background_image:
@@ -54,7 +54,7 @@ post:
     # 支付宝 | Alipay: img/Alipay.png
     # 微信 | Wechat: img/WeChat.png
   # 以下两项依赖 hexo-wordcount，请参阅 README 开启
-  count: false # 是否显示字数统计
+  count: true # 是否显示字数统计
   time: false # 是否显示预计阅读时长
 
 # 文章内目录
