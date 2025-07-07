@@ -4,7 +4,7 @@ favicon:
   href: "/favicon.ico"
 
 # html lang
-language: en-us
+language: zh-CN
 
 # canvas 动态背景
 canvas_dust: true
@@ -39,7 +39,7 @@ aside:
 # 社交链接
 # 格式：链接 || 图标
 social:
-  # GitHub: https://github.com/Fldicoahkiin || fab fa-github
+  GitHub: https://github.com/Fldicoahkiin || fab fa-github
   # E-Mail: Fldicoahkiin@gmail.com || fa fa-envelope
   # Weibo: https://weibo.com/yourname || fab fa-weibo
   # Zhihu: https://www.zhihu.com/people/yourname || fab fa-zhihu
