@@ -1,5 +1,5 @@
 {
-  "name": "fldicoahkiin.github.io",
+  "name": "FlacierのBlog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -20,18 +20,18 @@
     "hexo-filter-mathjax": "^0.9.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-index": "^4.0.0",
     "hexo-generator-searchdb": "^1.4.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-render-pug": "^2.1.4",
-    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-util": "^3.3.0",
     "hexo-wordcount": "^6.0.1"
   },
   "main": "index.js",
-  "repository": "https://github.com/Fldicoahkiin/fldicoahkiin.github.io.git",
-  "author": "Fldicoahkiin <Fldicoahkiin@gmail.com>",
+  "repository": "https://github.com/Fldicoahkiin/Flacier-Blog.git",
+  "author": "Flacier <Flacier@outlook.com>",
   "license": "MIT"
 }
