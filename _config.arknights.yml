@@ -4,7 +4,7 @@ favicon:
   href: "/favicon.ico"
 
 # html lang
-language: zh-CN
+language: zh-cn
 
 # canvas 动态背景
 canvas_dust: true
@@ -81,6 +81,20 @@ search:
   # 设为 striptags 时，滤除 html tag
   # 设为 raw 时，依据 markdown 源文件生成
   format: raw
+# 背景音乐
+bgm:
+  enable: false
+  autoplay: true
+  loop: true
+  src: /audio/bgm.mp3
+
+# 不蒜子
+# 详见 https://busuanzi.ibruce.info/
+busuanzi:
+  enable: true
+  sitePV: true # 站点总访问量
+  siteUV: true # 站点访客数
+  pagePV: true # 页面访问量
 
 # Valine
 # 详见 https://valine.js.org

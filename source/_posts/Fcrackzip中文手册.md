@@ -1,11 +1,12 @@
 ---
 title: Fcrackzip中文手册
 date: 2025-07-15 21:22:53
-tags: 取证Forensic
+tags: 爆破
+category: CTF
 permalink: /Fcrackzip中文手册/
 ---
 
-## Fcrackzip 中文教程
+## Fcrackzip 中文手册
 
 ## 1. 工具介绍
 
