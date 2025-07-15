@@ -31,7 +31,7 @@ menu:
 aside:
   in_left: true # 侧边栏在左 true / false
   logo: https://ak.hypergryph.com/assets/index/images/ak/pc/faction/4.png #图片链接，建议 1:1 比例
-  dr: https://github.com/Fldicoahkiin # 侧边栏 Dr. 链接
+  dr: https://flacier.us.kg # 侧边栏 Dr. 链接
   icp: # ICP 备案号，与版权声明相同，但会链接到 https://beian.miit.gov.cn/
   copyright: # 版权声明、备案号等，可自定义键值，不想显示则留空
     ©: 2023-2077
@@ -40,7 +40,7 @@ aside:
 # 格式：链接 || 图标
 social:
   GitHub: https://github.com/Fldicoahkiin || fab fa-github
-  # E-Mail: Fldicoahkiin@gmail.com || fa fa-envelope
+  E-Mail: Flacier@outlook.com || fa fa-envelope
   # Weibo: https://weibo.com/yourname || fab fa-weibo
   # Zhihu: https://www.zhihu.com/people/yourname || fab fa-zhihu
 

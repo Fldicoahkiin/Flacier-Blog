@@ -1,7 +1,8 @@
 ---
 title: IP相关工具汇总
 date: 2024-08-11 19:18:30
-tags: 网络
+tags: Web
+permalink: /IP相关工具汇总/
 ---
 
 ## 查询类
