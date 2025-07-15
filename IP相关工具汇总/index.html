@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="zh-cn" theme-mode="auto"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>IP相关工具汇总 | FlacierのBlog</title><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" as="font" crossorigin="anonymous" href="/font/Bender.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/BenderLight.woff2"><link rel="preload" as="font" crossorigin="anonymous" href="/font/JetBrainsMono-Regular.woff2"><link rel="stylesheet" href="/css/arknights.css"><style>@font-face {
+  font-family: Bender;
+  src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
+}
+@font-face {
+  font-family: BenderLight;
+  src: local('BenderLight'), url("/font/BenderLight.ttf");
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+</style><meta name="page-config" content="{&quot;code_fold&quot;:null}"><script class="pjax-js">var config = {"root":"/","search":{"preload":true,"activeHolder":"键入以继续","blurHolder":"数据检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}};
+var page_config = {
+  code_fold: null
+};
+function updatePageConfig() {
+  var newPageConfig = document.querySelector('meta[name="page-config"]');
+  if (newPageConfig) {
+    page_config = JSON.parse(newPageConfig.content);
+  }
+}
+document.addEventListener('pjax:complete', function() { updatePageConfig(); });
+updatePageConfig();</script><link rel="stylesheet" href="//unpkg.com/@waline/client@v2/dist/waline.css"><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@9.2.2/dist/mermaid.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+ menuSettings: {
+   zoom: "None"
+ },
+ showMathMenu: false,
+ jax: ["input/TeX","output/CommonHTML"],
+ extensions: ["tex2jax.js"],
+ TeX: {
+   extensions: ["AMSmath.js","AMSsymbols.js"],
+   equationNumbers: {
+     autoNumber: "AMS"
+   }
+ },
+ tex2jax: {
+   inlineMath: [["\\(", "\\)"]],
+   displayMath: [["\\[", "\\]"]]
+ }
+});</script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><style defer src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"></style><link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.4.0/styles/atom-one-dark-reasonable.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light' || window.matchMedia('(prefers-color-scheme:light)').matches)
+ document.documentElement.setAttribute('theme-mode', 'light')
+if (window.localStorage.getItem('theme-mode') === 'dark' || window.matchMedia('(prefers-color-scheme:dark)').matches)
+ document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
+ font-family: BenderLight;
+ src: local('Bender'), url("/font/BenderLight.woff2") format('woff2');
+}
+@font-face {
+ font-family: 'JetBrains Mono';
+ src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}</style><style>:root {
+ --dark-background: url('https://ak.hypergryph.com/assets/index/images/ak/pc/bk.jpg');
+ --light-background: url('/img/bk.jpg');
+ --theme-encrypt-confirm: '确认'
+}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script defer src="https://vercount.one/js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@9.2.2/dist/mermaid.esm.mjs';
+window.mermaid = mermaid;
+code.paintMermaid();
+</script><script async type="module">import { init } from '//unpkg.com/@waline/client@v2/dist/waline.mjs';
+window.waline = init;
+</script><script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js"></script><script>MathJax.Hub.Config({
+  menuSettings: {
+    zoom: "None"
+  },
+  showMathMenu: false,
+  jax: ["input/TeX","output/CommonHTML"],
+  extensions: ["tex2jax.js"],
+  TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js"],
+    equationNumbers: {
+      autoNumber: "AMS"
+    }
+  },
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]]
+  }
+});
+</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {if (document.querySelector('#waline'))
+ waline({
+   el: '#waline',
+   dark: ':root[theme-mode="dark"]',
+   serverURL: 'https://fldicoahkiin-github-io-vercel-server.vercel.app/',
+   path: window.location.pathname,
+ });document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi','meta[name=page-config]'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);document.addEventListener('pjax:success', _ => {
+ const script = document.createElement('script');
+ script.src = 'https://vercount.one/js';
+ document.head.appendChild(script);
+});reset()})</script><script class="pjax-js">reset= () => {if (document.querySelector('#waline'))
+ waline({
+   el: '#waline',
+   dark: ':root[theme-mode="dark"]',
+   serverURL: 'https://fldicoahkiin-github-io-vercel-server.vercel.app/',
+   path: window.location.pathname,
+ });MathJax.Hub.Queue(["Typeset", MathJax.Hub]);document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi','meta[name=page-config]'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);document.addEventListener('pjax:success', _ => {
+ const script = document.createElement('script');
+ script.src = 'https://vercount.one/js';
+ document.head.appendChild(script);
+});reset()})</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="数据检索" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a class="navBlock" href="/about/"><span class="navItemTitle">About</span></a></li></ol></nav></header><article><div id="post-bg"><div id="post-title"><h1>IP相关工具汇总</h1><div id="post-info"><span>文章发布时间: <div class="control"><time datetime="2024-08-11T11:18:30.000Z" id="date"> 2024-08-11</time></div></span><br><span>最后更新时间: <div class="control"><time datetime="2025-07-15T18:06:44.022Z" id="updated"> 2025-07-16</time></div></span><br><span>文章总字数: <div class="control">255</div></span><br><span id="busuanzi_container_page_pv">页面浏览: <span class="control" id="busuanzi_value_page_pv">加载中...</span></span></div></div><hr><div id="post-content"><h2 id="查询类"><a href="#查询类" class="headerlink" title="查询类"></a>查询类</h2><ul>
+<li><p><strong>Scamalytics</strong> <a target="_blank" rel="noopener" href="https://scamalytics.com/">https://scamalytics.com</a> IP纯净度</p>
+</li>
+<li><p><strong>17CE</strong> <a target="_blank" rel="noopener" href="https://www.17ce.com/">https://www.17ce.com</a> 连通性</p>
+</li>
+<li><p><strong>ping.pe</strong> <a target="_blank" rel="noopener" href="https://ping.pe/">https://ping.pe</a> 连通性</p>
+</li>
+<li><p><strong>IPChecker</strong> <a target="_blank" rel="noopener" href="https://www.vps234.com/ipchecker/">https://www.vps234.com/ipchecker</a> 连通性</p>
+</li>
+</ul>
+<h3 id="信息收集类"><a href="#信息收集类" class="headerlink" title="信息收集类"></a>信息收集类</h3><ul>
+<li><p><strong>Web Check</strong> <a target="_blank" rel="noopener" href="https://web-check.xyz/">https://web-check.xyz</a> 综合</p>
+</li>
+<li><p><strong>站长工具</strong> <a target="_blank" rel="noopener" href="https://tool.chinaz.com/">https://tool.chinaz.com/</a> 综合</p>
+</li>
+<li><p><strong>ICP/IP地址/域名信息备案管理系统</strong> <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/">https://beian.miit.gov.cn/</a> 备案</p>
+</li>
+<li><p><strong>FOFA网络空间测绘系统漏洞收集平台</strong> <a target="_blank" rel="noopener" href="https://fofa.info/">https://fofa.info/</a> 漏洞</p>
+</li>
+<li><p><strong>PostJson</strong> <a target="_blank" rel="noopener" href="http://coolaf.com/tool/port">http://coolaf.com/tool/port</a> 端口</p>
+</li>
+<li><p><strong>ViewDns.info</strong> <a target="_blank" rel="noopener" href="https://viewdns.info/">https://viewdns.info/</a> DNS</p>
+</li>
+<li><p><strong>netcraft</strong> <a target="_blank" rel="noopener" href="https://sitereport.netcraft.com/">https://sitereport.netcraft.com/</a> DNS</p>
+</li>
+<li><p><strong>DNSGrep</strong> <a target="_blank" rel="noopener" href="https://www.dnsgrep.cn/">https://www.dnsgrep.cn/</a> 子域名</p>
+</li>
+<li><p><strong>Whois</strong> <a target="_blank" rel="noopener" href="https://www.whois.com/">https://www.whois.com/</a> Whois</p>
+</li>
+<li><p><strong>Who.is</strong> <a target="_blank" rel="noopener" href="https://who.is/">https://who.is/</a> Whois</p>
+</li>
+</ul>
+<h2 id="自我检测类"><a href="#自我检测类" class="headerlink" title="自我检测类"></a>自我检测类</h2><ul>
+<li><p><strong>PING0</strong> <a target="_blank" rel="noopener" href="http://ping0.cc/">http://ping0.cc</a> IP纯净度</p>
+</li>
+<li><p><strong>IPCheck.ing</strong> <a target="_blank" rel="noopener" href="https://ipcheck.ing/">https://ipcheck.ing</a> 综合</p>
+</li>
+<li><p><strong>BrowserLeaks</strong> <a target="_blank" rel="noopener" href="https://browserleaks.com/">https://browserleaks.com</a> 综合</p>
+</li>
+<li><p><strong>Cover Your Tracks</strong> <a target="_blank" rel="noopener" href="https://coveryourtracks.eff.org/">https://coveryourtracks.eff.org</a> 综合</p>
+</li>
+<li><p><strong>UA检测-HTTP</strong> <a target="_blank" rel="noopener" href="https://ua.233996.xyz/">https://ua.233996.xyz</a> UA</p>
+</li>
+<li><p><strong>What is MyIPaddress</strong> <a target="_blank" rel="noopener" href="https://whatismyipaddress.com/">https://whatismyipaddress.com</a> IP</p>
+</li>
+<li><p><strong>WHOER.NET</strong> <a target="_blank" rel="noopener" href="https://whoer.net/">https://whoer.net</a> IP</p>
+</li>
+</ul>
+<h2 id="测速类"><a href="#测速类" class="headerlink" title="测速类"></a>测速类</h2><h3 id="国内"><a href="#国内" class="headerlink" title="国内"></a>国内</h3><ul>
+<li><p><strong>中国科学技术大学测速网站</strong> <a target="_blank" rel="noopener" href="https://test.ustc.edu.cn/">https://test.ustc.edu.cn</a></p>
+</li>
+<li><p><strong>南京大学测速站</strong> <a target="_blank" rel="noopener" href="https://test.nju.edu.cn/">https://test.nju.edu.cn</a></p>
+</li>
+<li><p><strong>Speedtest</strong> <a target="_blank" rel="noopener" href="https://www.speedtest.cn/">https://www.speedtest.cn</a></p>
+</li>
+</ul>
+<h3 id="国外"><a href="#国外" class="headerlink" title="国外"></a>国外</h3><ul>
+<li><p><strong>Cloudflare Speed Test</strong> <a target="_blank" rel="noopener" href="https://speed.cloudflare.com/">https://speed.cloudflare.com</a></p>
+</li>
+<li><p><strong>fast.com</strong> <a target="_blank" rel="noopener" href="https://fast.com/">https://fast.com</a></p>
+</li>
+<li><p><strong>Speedtest</strong> <a target="_blank" rel="noopener" href="https://www.speedtest.net/">https://www.speedtest.net</a></p>
+</li>
+</ul>
+<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div class="footer-link" style="width: 50%;text-align:right;border-right:1px #fe2 solid"><a href="/%E5%B8%B8%E8%A7%81%E7%BD%91%E7%AB%99%E7%AC%AC%E4%B8%89%E6%96%B9%E9%95%9C%E5%83%8F%E6%B1%87%E6%80%BB/">← 下一篇 常见网站第三方镜像汇总</a></div><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/Hello-The_Fucking-World/">Hello World 上一篇 →</a></div></div></div><div id="comments"><div id="waline"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/4.png" alt="Logo" style="margin:0;border-radius:0;"></a><h1 id="Dr"><a href="https://flacier.us.kg">Flacier</a></h1><div id="description"><p>嗯~ o(*￣▽￣*)o</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://github.com/Fldicoahkiin"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="Flacier@outlook.com"><i class="fa fa-envelope" alt="E-Mail"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9F%A5%E8%AF%A2%E7%B1%BB"><span class="toc-number">1.</span> <span class="toc-text">查询类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86%E7%B1%BB"><span class="toc-number">1.1.</span> <span class="toc-text">信息收集类</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E6%88%91%E6%A3%80%E6%B5%8B%E7%B1%BB"><span class="toc-number">2.</span> <span class="toc-text">自我检测类</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E9%80%9F%E7%B1%BB"><span class="toc-number">3.</span> <span class="toc-text">测速类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BD%E5%86%85"><span class="toc-number">3.1.</span> <span class="toc-text">国内</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BD%E5%A4%96"><span class="toc-number">3.2.</span> <span class="toc-text">国外</span></a></li></ol></li></ol></div></div><footer><nobr><span class="icp-title">©</span><span class="icp-content">2023-2077</span></nobr><br><nobr>构建自 <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> 使用主题 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> 主题作者 <a target="_blank" rel="noopener" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas><script defer src="//unpkg.com/@highlightjs/cdn-assets@11.4.0/highlight.min.js"></script></body></html>
