@@ -118,8 +118,16 @@ gitalk:
 # Waline
 # 详情: https://waline.js.org/
 waline:
+  enable: false
+  server_url: #Server_Url
+
+# Utterances
+# 详见: https://utteranc.es
+utterances:
   enable: true
-  server_url: https://fldicoahkiin-github-io-vercel-server.vercel.app/ #Server_Url
+  repo: Fldicoahkiin/utterances-hexo-blog-comments-data # Github 仓库所有者和名称
+  issue_term: pathname # 可选值: pathname | url | title | og:title
+  theme: github-dark # 可选值: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
 
 # 图表支持
 mermaid:
