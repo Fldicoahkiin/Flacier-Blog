@@ -15,6 +15,6 @@ About，其实就是About了。那么About为什么会About，相信大家都很
 
 ## 时间线
 
-- 2023年6月8日，Flacier的Blog正式上线
+- 2023年5月28日，FlacierのBlog正式上线
 - 2025年7月7日，域名从 fldicoahkiin.github.io 迁移到 flacier.us.kg 并且从Github Pages迁移到Cloudflare Pages
 - 2025年7月19日，评论系统从 Leancloud + Vercel 部署的 Waline 迁移到 utterances 🔮
