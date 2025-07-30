@@ -29,7 +29,8 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-util": "^3.3.0",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "typescript": "^5.8.3"
   },
   "main": "index.js",
   "repository": "https://github.com/Fldicoahkiin/Flacier-Blog.git",
