@@ -1,9 +1,9 @@
 ---
 title: 神秘XSS Bypass
 date: 2025-07-22 16:14:14
-tags:
----
-
+tags: XSS
+category: CTF
+permalink: /神秘XSS Bypass/
 ---
 
 ```html

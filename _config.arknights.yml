@@ -125,7 +125,7 @@ waline:
 # 详见: https://utteranc.es
 utterances:
   enable: false
-  repo: # Github 仓库所有者和名称
+  repo: Fldicoahkiin/utterances-hexo-blog-comments-data # Github 仓库所有者和名称
   issue_term: pathname # 可选值: pathname | url | title | og:title
   theme: github-dark # 可选值: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
 
