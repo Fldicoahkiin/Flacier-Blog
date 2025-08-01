@@ -150,7 +150,7 @@ giscus:
   # theme: # 主题，可选值详见 README.md 或 giscus 官网
   
   # 方式二：分别设置明暗主题（推荐，支持主题自动切换）
-  theme_light: transparent_dark # 亮色模式主题
+  theme_light: light_high_contrast # 亮色模式主题
   theme_dark: transparent_dark # 暗色模式主题
   
   # 方式三：使用自定义 CSS（高级用法）
